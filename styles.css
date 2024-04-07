@@ -1,0 +1,96 @@
+
+body{
+    background-color: lightcyan;
+}
+
+.master{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.headers{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.head1{
+    width:auto;  
+}
+
+.head2{
+   width: 50%;
+}
+
+.h1{
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+.h3{   
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.lbl1, .lbl2, .lbl3{
+    font-weight: bold;
+}
+
+.area1,.area2, .area3{
+    border: 1px solid;
+}
+
+.btn{
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    border-radius: 8px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+}
+
+.btn{
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: #04AA6D; /* Green */
+    color: white;
+}
+
+.logo1{
+    display: flex;
+    width: 40px;
+    height:40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.logo2{
+    display: flex;
+    width: 40px;
+    height:40px;
+    margin-right: 10px;   
+    margin-top: 10px;
+    margin-left: 40px; 
+}
+
+.email{
+    white-space: nowrap;
+}
+.mailpar{
+    white-space: nowrap;
+    margin-left: 0px;
+}
+
+.follow{
+    white-space: nowrap;
+    margin-left: 20px;
+}

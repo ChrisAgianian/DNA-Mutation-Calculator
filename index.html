@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA Mutation Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="master">
+    <div class="headers">
+        <div class="head1">
+            <h1 class="h1">A DNA String Mutation Calculator</h1>
+        </div>
+    
+        <div class="head2">
+            <h3 class="h3">Enter a DNA string and the locations (indices) 
+                where mutations occur and the Calculator will produce 
+                the mutated strand.</h3>
+        </div>
+    </div>
+     
+    <br>
+
+    <div class="boxes">
+
+        <div class="box1">
+            <label for="originalString" class="lbl1">Original String</label>
+            <br>
+            <textarea class="area1" id="originalString" placeholder="Example: ATGCTCAG..." rows="4" cols="50"></textarea>
+            <br>
+        </div>
+    
+        <br>
+    
+        <div class="box2">
+            <label for="replacements" class="lbl2">Mutations {for Deletion type: index followed by the letter "X"}</label>
+            <br>
+            <textarea class="area2" id="replacements" placeholder="Example: 2T, 5G, 7X,..." rows="4" cols="50"></textarea>
+            <br>
+        </div>
+    
+        <div>
+            <button class="btn" onclick="replaceString()">Mutate</button>
+            <br>
+        </div>
+    
+        <br>
+        
+        <div class="box3">
+            <label for="result" class="lbl3">Result:</label>
+            <br>
+            <textarea class="area3" id="result" rows="4" cols="50" readonly></textarea>
+            <br>
+        </div>
+
+    </div>
+</div>
+
+<br>
+
+<div class="cont">
+
+    <h2>Follow for more</h2>
+
+    <div class="">
+        <div class="logo1">
+            <img src="images/logos/github.png">
+            <p class="mailpar"><a href="https://github.com/ChrisAgianian" class="follow">Check out my Github</a></p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="">
+        <div class="logo2">
+            <img src="images/logos/instagram.png">
+            <p><a href="" class="follow">Follow me on instagram</a></p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+
+</div>
+    <script src="app.js"></script>
+
+</body>
+</html>
